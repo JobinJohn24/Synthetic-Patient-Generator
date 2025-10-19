@@ -1,4 +1,4 @@
-# Synthetic-Patient-Generator
+# Synthetic Patient Generator
 
 ## 📌 Project Overview
 This project uses a Generative Adversarial Network (GAN) to create realistic synthetic patient data for use in pharmaceutical and healthcare research. The goal is to support meaningful analysis while keeping patient information private and secure. The model is trained on anonymized patient records, learning the patterns and statistics of real data so it can generate new, lifelike datasets that reflect the same trends—without revealing anyone’s personal details.
