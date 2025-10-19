@@ -24,7 +24,7 @@ This project uses a Generative Adversarial Network (GAN) to create realistic syn
 ## ⚙️ Technical Methods & Models
 - **Language:** Python  
 - **Algorithms:** GANs, Variational Autoencoders  
-- **Libraries:** TensorFlow, PyTorch
+- **Libraries:** TensorFlow, Numpy, Scikit-learn, Matplotlib
 
 ## 👨‍💻 Installation
 
