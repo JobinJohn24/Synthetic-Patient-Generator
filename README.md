@@ -1,20 +1,19 @@
-# Synthetic-Patient-Generator
+# Synthetic Patient Generator
 
-## 📌 Abstract
-Uses generative models (GANs/VAEs) to simulate synthetic patient datasets for drug development while preserving privacy.
+## 📌 Project Overview
+This project uses a Generative Adversarial Network (GAN) to create realistic synthetic patient data for use in pharmaceutical and healthcare research. The goal is to support meaningful analysis while keeping patient information private and secure. The model is trained on anonymized patient records, learning the patterns and statistics of real data so it can generate new, lifelike datasets that reflect the same trends—without revealing anyone’s personal details.
 
----
-
-## 🌍 Real-World Relevance
-Synthetic datasets allow pharmaceutical research without exposing real patient identities.
-
----
 
 ## 🔬 Workflow
-1. Load anonymized patient dataset.  
-2. Train GAN/VAE models.  
-3. Generate synthetic samples.  
-4. Validate privacy and distribution fidelity.  
+1. Data Preparation: Load the anonymized patient dataset in .npy format.
+
+2. Model Training: Train a Wasserstein GAN to improve stability during learning.
+
+3. Synthetic Generation: Use the trained model to create realistic synthetic patient samples.
+
+4. Validation: Check that privacy is protected and the synthetic data matches real-world patterns.
+
+5. Deployment: Release the validated synthetic dataset for research purposes.
 
 ---
 
@@ -26,7 +25,10 @@ Synthetic datasets allow pharmaceutical research without exposing real patient i
 ---
 
 ## 📊 Visualizations
-- Real vs synthetic feature distributions.  
+* Real vs synthetic feature distributions.
+
+[realvfakegraph](
+
 - PCA/UMAP projection of data space.  
 - Privacy leakage metrics.  
 
