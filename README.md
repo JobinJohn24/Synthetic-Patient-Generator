@@ -29,18 +29,21 @@ This project uses a Generative Adversarial Network (GAN) to create realistic syn
 ## 👨‍💻 Installation
 
 git clone https://github.com/JoinJohn24/Synthetic-Patient-Generator.git
+
 cd Synthetic-Patient-Generator
+
 pip install -r requirements.txt
 
 ## 📊 Visualizations
 * K-means clustering showed how synthetic samples are distrbuted across clusters
 
-[realvfakegraph](https://github.com/JobinJohn24/Synthetic-Patient-Generator/blob/main/images/kmeans_statistics.png)
-
 PCA/UMAP projection of data space.
-[pcagraph](https://github.com/JobinJohn24/Synthetic-Patient-Generator/blob/main/images/pca_projection.png)
+
 
 |Metric|Value|
 |-|-|
-
-
+|Synthetic Samples generated|500|
+|Privacy Risk|0.34%|
+|Real Cluster Tightness|2.91 average|
+|Synthetic Cluster Spread|5.44|
+|PCA Variance Captured|36% in 2D|
