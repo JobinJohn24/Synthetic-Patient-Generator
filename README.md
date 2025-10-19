@@ -34,7 +34,7 @@ cd Synthetic-Patient-Generator
 
 pip install -r requirements.txt
 
-## Results
+## 👨‍🔬 Results
 
 After training 297 real patients records: 
 |Metric|Value|
