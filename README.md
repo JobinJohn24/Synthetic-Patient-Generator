@@ -51,5 +51,6 @@ After training 297 real patients records:
 ![kmeans](https://github.com/JobinJohn24/Synthetic-Patient-Generator/blob/main/images/kmeans_statistics.png)
 
 
-* PCA Projection shows the overlap in data between the synthetic and real datasets based on features.
+* PCA Projection & Feature Distribution shows the overlap in data between the synthetic and real datasets based on individual features
 ![pcaprojection](https://github.com/JobinJohn24/Synthetic-Patient-Generator/blob/main/images/pca_projection.png)
+![feature distribution](https://github.com/JobinJohn24/Synthetic-Patient-Generator/blob/main/images/validation_results.png)
