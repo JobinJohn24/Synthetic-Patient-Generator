@@ -28,9 +28,10 @@ This project uses a Generative Adversarial Network (GAN) to create realistic syn
 
 ## 👨‍💻 Installation
 
-git clone https://github.com/JobinJohn24/Synthetic-Patient-Generator.git
 
-cd Synthetic-Patient-Generator
+git clone 'https://github.com/JobinJohn24/Synthetic-Patient-Generator.git'
+
+cd 'Synthetic-Patient-Generator'
 
 pip install -r requirements.txt
 
