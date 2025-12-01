@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import ks_2samp
 from sklearn.decomposition import PCA
 
-# MAKE ADJUSTMENT HERE #
+
 REAL_DATA = "patient_data.npy"
 SYNTHETIC_DATA = "synthetic_patients.npy"
 
