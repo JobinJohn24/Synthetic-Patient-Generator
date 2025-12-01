@@ -7,7 +7,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 
-# MAKE ADJUSTMENTS HERE #
+
 DATA_FILE = "patient_data.npy"
 LATENT_DIM = 32
 EPOCHS = 300
